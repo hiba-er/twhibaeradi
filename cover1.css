@@ -1,0 +1,135 @@
+body{ 
+background-color: #f0f0f0;
+border: 1px solid gray;
+padding: 1px;
+}
+h2.header, p.header
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato';
+}
+
+h2.header {
+  font-size: 2em;
+  padding: 10px 0;
+  font-weight: 800;
+  text-transform: uppercasecase;
+  
+}
+
+p.header {
+  font-size: 1.1em;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+.header {
+  width: 100%;
+  padding:50px 0;
+  text-align: center;
+  background: #33cccc;
+  color: white;
+}
+h1{
+	color: DodgerBlue;
+	margin: 1px;
+	padding: 1px;
+	text-align: center;
+	border-bottom: 2px solid black;
+	font-family: 'Lato';
+}
+ul {
+ list-style-type: none;
+  margin: 0;
+  padding: auto;
+  overflow: hidden;
+  background-color: gray;
+}
+
+
+li.a {
+float:left;
+}
+
+li.a a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  overflow:none;
+}
+
+li.a a:hover {
+  background-color: #111;
+}
+div.b{
+	color: navy;
+	margin: 1px;
+	padding: 1px;
+	font-family: 'Lato';
+}
+img{
+	display:flex;
+	width :300px;
+	height:300px;
+	margin-left:auto;
+	margin-right:auto;
+}
+p{font-family: 'Lato';
+margin: 1px;
+	padding: 1px;
+	font-size:20px;
+}
+h3{border-top: 2px solid black;
+padding:1px;}
+iframe{display:flex;
+	width :400px;
+	height:300px;
+	margin-left:auto;
+margin-right:auto;}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 2px;
+  resize: vertical;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+botton:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 0px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  position:center;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 1px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
